@@ -1,13 +1,13 @@
 # Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 
 pkgname=biglinux-base-icons
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+pkgver=24.06.15
+pkgrel=0152
 arch=('any')
 license=('GPL')
 url="https://github.com/biglinux/biglinux-base-icons"
 pkgdesc="Icons and fixes to themes"
-source=("git+https://github.com/biglinux/biglinux-base-icons.git")
+source=("git+https://github.com/biglinux/biglinux-base-icons.git#branch=stable-2024-06-14")
 md5sums=(SKIP)
 
 
